@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+  background-color: #202020;
+}
+
+.logo {
+  margin-top: 0px;
+  width: 1730px;
+}
+
+.jumbotron {
+  padding: 6rem;
+}
+
+.jumbotron .logo {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.navigator {
+  background-color: #202020;
+}
+
+.navigator .navigasi {
+  margin-right: auto;
+}
+
+.navigator ul li {
+  margin-right: 9rem;
+}
+
+.navigator ul li a {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.navigator a:hover {
+  display: block;
+  background-color: #fea8a7;
+  opacity: 50%;
+  color: white;
+}
+
+.menu {
+  padding: 2rem;
+  background-color: #f3c5c5;
+}
+
+.about .container {
+  margin-bottom: 30px;
+}
+
+.about .container .judul h1 {
+  margin-bottom: 35px;
+  font-weight: bolder;
+}
+
+.about .container .sub h3 {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.about .text h1,
+h3,
+p {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.location {
+  background-color: #f3c5c5;
+}
+
+.contact h1 {
+  color: white;
+}
+
+.contact p {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.contact .email {
+  margin-top: 110px;
+}
+
+.footer {
+  background: #f3c5c5;
+  text-align: center;
+}
+
+.footer .share {
+  padding: 1rem 0;
+}
+
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  border: var(--border);
+  margin: 0.3rem;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.footer .share a:hover {
+  background-color: #fff;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.footer .links a {
+  padding: 0.7rem 2rem;
+  color: #202020;
+  border: var(--border);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.footer .links a:hover {
+  background-color: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.footer .credit {
+  font-size: 2rem;
+  color: #202020;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.footer .credit span {
+  color: #202020;
+}
